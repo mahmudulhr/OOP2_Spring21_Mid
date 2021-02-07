@@ -10,6 +10,7 @@ namespace helloworld
     {
         static void Main(string[] args)
         {
+            /*
             int n = 100;
             Console.WriteLine("Even NUmber");
             for(int i=1; i<=n; i++)
@@ -19,7 +20,7 @@ namespace helloworld
                     Console.WriteLine(i+" ");
                 }
             }
-
+            /*/
             int n= 99;
             Console.WriteLine("odd");
             for(int i=1; i<=n;i++)
