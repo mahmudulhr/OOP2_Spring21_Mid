@@ -10,15 +10,27 @@ namespace helloworld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            int n = 100;
+            Console.WriteLine("Even NUmber");
+            for(int i=1; i<=n; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    Console.WriteLine(i+" ");
+                }
+            }
 
-
-            int num1 = 5;
-            int num2 = 3;
-            Console.WriteLine("Addition is :" + (num1 + num2));
-            Console.WriteLine("Substraction is :{0}", (num1 - num2));
-            Console.WriteLine("Multiplication is :{0}", (num1 * num2));
-            Console.WriteLine("Division is :" + (num1 / num2));
+            int n= 99;
+            Console.WriteLine("odd");
+            for(int i=1; i<=n;i++)
+            {
+                if (i%2 !=0)
+                {
+                    Console.WriteLine(i + "");
+                }
+            }
+          
         }
+       
     }
 }
