@@ -21,7 +21,7 @@ namespace helloworld
                 }
             }
             
-          /*/
+          
             int i, n =100 , sum1 = 0, sum2 = 0;
             Console.WriteLine("enter value");
             for (i=1; i<= n; i++)
@@ -33,7 +33,40 @@ namespace helloworld
                 Console.WriteLine("Sum of even ={0}", sum2);
 
             }
-            
+            /*/
+
+            int  phy=62, chemistry=83, biology=93, mathematic=89, computer=71;
+            double sum = phy + chemistry + biology + mathematic + computer;
+
+            sum /= 5.0;
+
+            Console.WriteLine( " Percentage " + sum + "%");
+            if (sum>90)
+            {
+                Console.WriteLine("A+");
+            }
+            else if (sum >= 85 && sum < 89)
+            {
+                Console.WriteLine("A");
+            }
+            else if (sum >= 80 && sum < 85)
+            {
+                Console.WriteLine("B+");
+            }
+            else if (sum >= 75 && sum < 80)
+            {
+                Console.WriteLine("B");
+            }
+            else if (sum >= 50 && sum < 75)
+            {
+                Console.WriteLine("C");
+            }
+            else 
+            {
+                Console.WriteLine("FAIL");
+            }
+
+
         }
        
     }
