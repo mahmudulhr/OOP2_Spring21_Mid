@@ -10,16 +10,25 @@ namespace helloworld
     {
         static void Main(string[] args)
         {
-            int arr1 = new int[n];
-            int arr2 = new int[n];
-            for{
+            int arr1 = new int[50];
+            int arr2 = new int[50];
+            int i, n;
+            n = Convert.ToInt32(Console.ReadLine());
                 for(int i =0; i<arr1.length;i++)
                 {
-                    Console.WriteLine(arr[i] = i + n);
+                Console.WriteLine("element -{0} : ", i) ;
+                arr1[i] = Convert.ToInt32(Console.Redline());
                 }
+
+            for (i = 0; i < n; i++)
+            {
+                arr2[i] = arry1[i];
             }
-
-
+             for(i=0;i<n;i++)
+            {
+                Console.WriteLine("{0}", arr2[i]);
+            }
+            Console.WriteLine("\n\n");
         }
     }
 }
